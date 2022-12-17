@@ -16,7 +16,7 @@ const Header = () => {
   let interval
 
   const startTimer = () => {
-    const countDownDate = new Date('Aug 16,2022 ').getTime()
+    const countDownDate = new Date('Dec, 19,2022 ').getTime()
 
     interval = setInterval(() => {
       const now = new Date().getTime()
